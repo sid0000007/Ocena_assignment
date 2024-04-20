@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,194,213,1) 54%, rgba(33,84,94,1) 100%);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+
+.data{
+  visibility:visible;
+}
+
+.scroll-locked{
+  overflow: hidden;
+}
+
